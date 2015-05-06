@@ -1,0 +1,16 @@
+.widget{
+    header{
+        border-bottom: $label-color solid 1px;
+        padding-bottom: $jumbotron-padding / 2;
+        margin: 0 20%;
+        font-weight: 700;
+        font-size: $font-size-h4;
+        @media (max-width: $screen-xs) {
+            margin: 0;
+        }
+    }
+    p{
+        padding: $jumbotron-padding / 2;
+        margin:0;
+    }
+}

@@ -1,0 +1,18 @@
+.tagline{
+    @media (max-width: $screen-md) {
+        margin-bottom: $jumbotron-padding * 2;
+    }
+    .brand{
+        display: inline-block;
+        border-bottom: $text-color solid 1px;
+        padding-bottom: $line-height-computed;
+        padding-right: 60px;
+    }
+    h1{
+        font-size: $font-size-h4;
+        margin-bottom: $line-height-computed;
+        @media (max-width: $screen-xs) {
+            font-size: $font-size-h5;
+        }
+    }
+}

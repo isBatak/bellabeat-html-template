@@ -1,0 +1,9 @@
+.section{
+    padding: $section-padding;
+    @media (max-width: $screen-md) {
+        padding: $jumbotron-padding * 3 $jumbotron-padding * 2;
+    }
+    @media (max-width: $screen-sm) {
+        padding: $jumbotron-padding * 2 $modal-inner-padding;
+    }
+}

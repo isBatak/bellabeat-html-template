@@ -1,0 +1,39 @@
+{
+  "name": "infinum_test",
+  "version": "0.0.1",
+  "description": "Prijava za poziciju front-end developera",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isBatak/"
+  },
+  "keywords": [
+    "infinum",
+    "zadatak"
+  ],
+  "author": "Ivica Batinic",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/isBatak/"
+  },
+  "homepage": "https://github.com/isBatak/",
+  "devDependencies": {
+    "bower": "~0.8.6",
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-stencil": "^1.1.0",
+    "grunt-svgmin": "~0.1.0"
+  }
+}

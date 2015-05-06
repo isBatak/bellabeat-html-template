@@ -1,0 +1,10 @@
+.fb_iframe_widget{
+    vertical-align: top;
+    > span{
+        vertical-align: top !important;
+    }
+}
+
+[id^=twitter-widget-]{
+    vertical-align: top !important;
+}

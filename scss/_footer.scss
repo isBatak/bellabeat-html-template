@@ -1,0 +1,28 @@
+.footer-wrapper{
+    background: $gray-base;
+    color: $label-color;
+    padding: $jumbotron-padding;
+    @media (max-width: $screen-sm) {
+        input{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.small-grid{
+    padding-right: 13px;
+    padding-left: 13px;
+    [class^=col-] {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+}
+
+.server-message{
+    &.error{
+        color: $state-danger-text;
+    }
+    &.success{
+        color: $state-success-text;
+    }
+}
